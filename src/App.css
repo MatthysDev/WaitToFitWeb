@@ -1,38 +1,185 @@
-.App {
+.uppercase {
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: "Exo";   /*Can be any text*/
+  src: local("Exo-Light"),
+    url("./fonts/Exo-Light.ttf") format("truetype");
+}
+.font-semibold {
+  font-weight: 600;
+}
+.navBar{
+  column-count: 2;
+  padding: 10px;
+background: #464046;
+} 
+
+.dashBar{
+  
+color: #FFFFFF;
+font-weight: 300; 
+}
+.titleNameSite{
+  font-family: 'Exo';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 43px;
+color: #FFFFFF;
+}
+.itemNavBar{
+  font-family: 'Exo';
+font-style: normal;
+padding-left: 10px;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+button{
+  
+  font-family: 'Exo';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+
+background: #FFFFFF;
+border-radius: 10px;
+padding: 4px;
+color: #000000;
+}
+.NavBarRight{
+  column-count: 6;
+  white-space : nowrap;
+  float: right;
+  padding: 10px;
+}
+.chad{
+height: 534px;
+columns: 3;
+color: #FFFFFF;
+background: #76A795;
+}
+h2{
+  font-family: 'Exo';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+
+color: #000000;
+}
+.ajustement{
+  margin-top: 56px;
+  margin-bottom: 56px;
+  margin-left: 50px;
+}
+.col-3-bis{
+  
+  columns: 3;
+}
+.col-3{
+  columns: 3;
+  
+  height: 509px;
+  column-gap: 10px;
+}
+.col-2{
+  columns: 2;
+
+}
+.whyUs{
+
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
   text-align: center;
+  margin: 20px;
+  color: #000000;
 }
+h3{
+  
+  margin: 20px;
+  font-family: 'Exo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+text-align: center;
+
+color: #000000;
 }
+.chad>div{
+  
+font-family: 'Exo';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 85px;
+text-align: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+width: 848px;
+height: 351px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.info{
+height: 600px;
+background: #464046;
 }
-
-.App-link {
-  color: #61dafb;
+.stillHere{
+  font-family: 'Exo';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 85px;
+text-align: center;
+padding-top: 250px;
+color: #FFFFFF;
 }
+.center{
+  margin-left: 25%;
+}
+.objectif{
+height: 347px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+background: #464046;
+}
+.objectif>p{
+  font-family: 'Exo';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+
+padding-top: 100px;
+line-height: 64px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.objectif>button{
+  margin-left:43%;
+}
+footer{
+  height: 53px;
+
+background: #000000;
+}
+.col-7{
+  columns: 7;
+  padding-top: 50px;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #E2E2E2;
 }
